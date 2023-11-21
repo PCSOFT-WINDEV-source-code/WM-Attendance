@@ -1,0 +1,206 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : GlobalProcedures
+ major_version : 28
+ minor_version : 0
+ type : 7
+ description : ""
+ subtype : 0
+procedure_set :
+ identifier : 0x1e73ce99008f1525
+ internal_properties : CAAAAAgAAABGLu41kG7fjQV3iS4F72qmnKaNh5694reolNKIW0iw
+ code_elements :
+  internal_properties : CAAAAAgAAAAdC5DaGsntqmfkq1J4p6eipmeEO//QiIdypV0FB6KY+wiPKnW2KoJpaKmeXvb1NGpH4KGGthHXu/V4LqeilI4jnJwO5Q==
+  type_code : 31
+  p_codes : []
+  procedures :
+   -
+     name : GenerateTestData
+     internal_properties : CAAAAAgAAADatSeXbQe1Lv9UQHQEXJch1DFbGofcbfOIIeHjZ2rMKBad+QZ/iOTyxiT75QwySF2nnHqwM/8dYBcdhu/oTRVcIrsJS6VGuO93ipH5YT5++wOcyg+nI3s25cypjjXyo4s6OKY/LHYOd9w7M/2htZYoL9PGdsOe0IvGpUyuTRG9cBTKPoRgyPg+YO5HOpwbxTzMk9PK8EzNT8SLbxyby0HSRVVtkfQpaIBTOn+o+bTTzb8kzEaCRDJbVE4hzgoR/HwvOQtYmxByGEHvgZetKYDxgMfSnqbHC8DP1Acq6WoJscnbkczuqCNsOf5nyUoBPnd89f9JYjIa/RhKJn0=
+     procedure_id : 2194324599994324261
+     type_code : 15
+     code : |1+
+      // Summary: Generates the test data for the execution on the device 
+      // Syntax:
+      //GenerateTestData ()
+      //
+      // Parameters:
+      //	None
+      // Return value:
+      // 	None
+      //
+      
+      procedure GenerateTestData()
+      
+      HCreation(REGISTRATION)
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "SHAPES"
+      REGISTRATION.Title = "Mrs"
+      REGISTRATION.Lastname ="BERGEREAU"
+      REGISTRATION.FirstName = "ROSARIA"
+      REGISTRATION.Address = "THE ARCH BRIDGE"
+      REGISTRATION.ZipCode = "88520"	
+      REGISTRATION.City = "BERTRIMOUTIER"
+      REGISTRATION.Email = "bergereau.rosaria@free.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "COFIROUTES"
+      REGISTRATION.Title = "Mrs"
+      REGISTRATION.Lastname ="BORDENAVE"
+      REGISTRATION.FirstName = "VINCIANE"
+      REGISTRATION.Address = "CENTAURY ALLEY"
+      REGISTRATION.ZipCode = "59158"	
+      REGISTRATION.City = "FLINES LES MORTAGNE"
+      REGISTRATION.Email = "bordenave.vinciane@wanadoo.fr"
+      REGISTRATION.Present = 1
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "IBSET CONSULTING"
+      REGISTRATION.Title = "Mrs"
+      REGISTRATION.Lastname ="SEBASTIAN"
+      REGISTRATION.FirstName = "NASTASSJA"
+      REGISTRATION.Address = "VIA ANTONELLI"
+      REGISTRATION.ZipCode = "07340"	
+      REGISTRATION.City = "ST DESIRAT"
+      REGISTRATION.Email = "sebastien.nastassja@libertysurf.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      		
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "SCORINGEN"
+      REGISTRATION.Title = "Mr"
+      REGISTRATION.Lastname ="LUSCAN"
+      REGISTRATION.FirstName = "OVIDE"
+      REGISTRATION.Address = "CARYATHIDES BUILDING"
+      REGISTRATION.ZipCode = "60210"	
+      REGISTRATION.City = "THIEULOY ST ANTOINE"
+      REGISTRATION.Email = "luscan.ovide@libertysurf.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "WESTERN CETEN"
+      REGISTRATION.Title = "Mr"
+      REGISTRATION.Lastname ="PETITQUEUX"
+      REGISTRATION.FirstName = "HAYDEE"
+      REGISTRATION.Address = "IT CLUB"
+      REGISTRATION.ZipCode = "41100"	
+      REGISTRATION.City = "FAYE"
+      REGISTRATION.Email = "petitqueux.haydee@libertysurf.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "LOGICAT"
+      REGISTRATION.Title = "	Mrs"
+      REGISTRATION.Lastname ="DASSAS"
+      REGISTRATION.FirstName = "LILLI"
+      REGISTRATION.Address = "CHARLES DE  GAULLE AVE"
+      REGISTRATION.ZipCode = "52220"	
+      REGISTRATION.City = "CEFFONDS"
+      REGISTRATION.Email = "dassas.lilli@libertysurf.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "INSERMENU121"
+      REGISTRATION.Title = "	M."
+      REGISTRATION.Lastname ="PENIN"
+      REGISTRATION.FirstName = "KENYA"
+      REGISTRATION.Address = "MAINE B AVE"
+      REGISTRATION.ZipCode = "77210"	
+      REGISTRATION.City = "AVON"
+      REGISTRATION.Email = "penin.kenya@wanadoo.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "SOFECOMEN"
+      REGISTRATION.Title = "	M."
+      REGISTRATION.Lastname ="BOUJENDAR"
+      REGISTRATION.FirstName = "BAYRAM"
+      REGISTRATION.Address = "KLEBER SQUARE"
+      REGISTRATION.ZipCode = "25330"	
+      REGISTRATION.City = "SILLEY AMANCEY"
+      REGISTRATION.Email = "boujendar.bayram@ifrance.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "STBFTER - GCE"
+      REGISTRATION.Title = "	M."
+      REGISTRATION.Lastname ="SCIEUZAC"
+      REGISTRATION.FirstName = "SALLY"
+      REGISTRATION.Address = "CHAUVART STREET"
+      REGISTRATION.ZipCode = "25150"	
+      REGISTRATION.City = "AUTECHAUX ROIDE"
+      REGISTRATION.Email = "scieuzac.sally@ifrance.fr"
+      REGISTRATION.Present = 0
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+      HReset(REGISTRATION)
+      
+      REGISTRATION.Company = "CMGES"
+      REGISTRATION.Title = "	M."
+      REGISTRATION.Lastname ="GELEZ"
+      REGISTRATION.FirstName = "XUAN"
+      REGISTRATION.Address = "EVERGREEN OAK ALLEY"
+      REGISTRATION.ZipCode = "33620"	
+      REGISTRATION.City = "LARUSCADE"
+      REGISTRATION.Email = "gelez.xuan@wanadoo.fr"
+      REGISTRATION.Present = 1
+      REGISTRATION.NbGuests = 0
+      
+      HAdd(REGISTRATION)
+      
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : CAAAAAgAAACVGQgYbalU7DKC3oH4ItDrjtcTHXXV/EuH8q0IbhyQlw==
+  original_name : ProceduresGlobales
+resources :
+ string_res :
+  identifier : 0x119b165a002a40da
+  internal_properties : CAAAAAgAAACm76HWfKGWp33VjXInA4cRlqArlgTTA862QGt72W2ld5Y=
+custom_note :
+ internal_properties : CAAAAAgAAABtB9HWVzrXO2+4NDRVK0vmzaNKrCKqH1DBX30lMmGZ
